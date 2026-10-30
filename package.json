@@ -32,6 +32,9 @@
     "src/**/*.ts",
     "LICENSE"
   ],
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": ">=1.0.0"
   }
