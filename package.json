@@ -22,11 +22,17 @@
     "telemetry",
     "observability"
   ],
-  "peerDependencies": {
-    "@earendil-works/pi-coding-agent": ">=1.0.0"
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "files": [
+    "index.ts",
     "src/**/*.ts",
     "LICENSE"
-  ]
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=1.0.0"
+  }
 }
