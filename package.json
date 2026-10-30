@@ -30,6 +30,7 @@
   "files": [
     "index.ts",
     "src/**/*.ts",
+    "README.md",
     "LICENSE"
   ],
   "scripts": {
