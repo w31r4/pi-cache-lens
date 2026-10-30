@@ -1,0 +1,32 @@
+{
+  "name": "pi-cache-lens",
+  "version": "0.1.0",
+  "description": "Zero-overhead prefix KV cache hit-rate status bar and root-cause miss forensics for pi coding agent.",
+  "type": "module",
+  "license": "MIT",
+  "author": "w31r4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w31r4/pi-cache-lens.git"
+  },
+  "homepage": "https://github.com/w31r4/pi-cache-lens#readme",
+  "bugs": {
+    "url": "https://github.com/w31r4/pi-cache-lens/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "coding-agent",
+    "kv-cache",
+    "prefix-cache",
+    "telemetry",
+    "observability"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=1.0.0"
+  },
+  "files": [
+    "src/**/*.ts",
+    "LICENSE"
+  ]
+}
